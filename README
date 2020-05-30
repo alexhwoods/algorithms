@@ -1,0 +1,18 @@
+Sometimes I'll do algorithms for fun. It can be a good way to practice a new language.
+
+To run these, I run it in the simplest way possible.
+
+### Go
+```
+go run main.go
+```
+
+### JavaScript
+I just use Node to run the JS files.
+```
+node file.js
+```
+
+
+### Kotlin
+TODO - I can't in good conscience record my development process for this rn. It's a mess
