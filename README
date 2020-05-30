@@ -17,9 +17,11 @@ node file.js
 ### Kotlin
 Something like:
 ```
-kotlinc minSwaps.kt -include-runtime -d temp.jar \
-    && java -jar temp.jar \
-    && rm temp.jar
+kotlinc minSwaps.kt -include-runtime -d temp.jar
+
+java -jar temp.jar
+
+rm temp.jar
 ```
 Love you compiled languages 😘.
 
