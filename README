@@ -15,4 +15,13 @@ node file.js
 
 
 ### Kotlin
-TODO - I can't in good conscience record my development process for this rn. It's a mess
+Something like:
+```
+kotlinc minSwaps.kt -include-runtime -d temp.jar \
+    && java -jar temp.jar \
+    && rm temp.jar
+```
+Love you compiled languages 😘.
+
+
+TODO: Get a nice Docker file you can run these things in.
